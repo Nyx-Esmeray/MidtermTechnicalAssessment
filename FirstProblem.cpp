@@ -8,7 +8,7 @@ using namespace std;
 /*This function takes the two delivery points but it takes as a coordinates
 then it will calculate the distance between those two points*/
 double calculatingtheDistance(pair<int, int> point_delivery1, pair<int, int> point_delivery2) {
-    //Caculate the distance of the two points using this Euclidean formula
+    //Caculate the distance of the two points using this formula
     double distance = sqrt(pow(point_delivery2.first - point_delivery1.first, 2) + pow(point_delivery2.second - point_delivery1.second, 2));
     return distance;
 }
